@@ -1,45 +1,24 @@
-# Welcome to AzerothJS!
+## Hello world!
 
-Welcome! AzerothJS is an open source blog engine running on static file servers such as Github Pages or any web hosting.
+Blog này được sử dụng cho mục đích kiểm thử AzerothJS cho việc viết blog thường xuyên. Mọi bài blog sẽ được cập nhật ở `lvnam96.github.io` trước khi dần chuyển sang sử dụng hoàn toàn blog này.
 
 ![](./img/azeroth_screenshot.png)
 
-## What make AzerothJS cool?
+## Azeroth có thật sự tốt?
 
-- Super lightweight
-- No installation needed
-- No server side code
-- Made for Github Pages
-- Easy to customization
+- Được viết trên nền JS nên rất nhẹ
+- Không cần cài đặt hơi phức tạp như Jekyll
+- Dễ dàng tuỳ chỉnh giao diện
 
-## Get AzerothJS here
+## Mã nguồn AzerothJS
 
-The source code are available on [Github](http://github.com/huytd/azeroth-js)
+Của huytd (the full snack developer) [Github](http://github.com/huytd/azeroth-js)
 
-## How to use?
+## Cách sử dụng đâu?
 
-### Run locally
-1. Clone this project to your computer
-2. Start simple HTTP server with Python:
-  ```
-  python -m SimpleHTTPServer 3000
-  ```
-3. Your blog now available at [http://localhost:3000](http://localhost:3000)
+Ở trang mã nguồn
 
-### Use with Github Pages
-1. Create your Github Pages
-2. Clone the this project and push it to your Github Pages
-3. Every time you want to write, create a new `*.md` file in `posts` folder and write with your favorite Markdown Editor
-4. Modify `posts/home.md`, list your posts here
-5. Commit and push everything here. Done!
-
-### Use with other web host
-1. Clone this project to your computer
-2. Create a new post in `*.md` format and save to `posts` folder
-3. Upload the everything to your web host
-4. Done
-
-## How to customize?
+## Tuỳ chỉnh như nào mà bảo dễ?
 
 ### Change code highlighting theme
 The original theme for the code highlighting is `Tomorrow Night`. If you don't like it, there are many pre-installed themes inside `css/highlight` folder. Pick one and replace to `line 6` of `index.html`:
